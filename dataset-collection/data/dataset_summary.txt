@@ -1,0 +1,3 @@
+Total samples: 124
+Average docstring tokens: 79.19
+Average code tokens: 480.25
