@@ -40,7 +40,7 @@ We found that the model was highly sensitive to the prompt format during inferen
 
 ```
 "Your task is to write a docstring that summarizes the following Python class.\n"
-Class {class_name} :
+Class {class_name}:
 {source_code}"
 
 Docstring:
