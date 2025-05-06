@@ -1,16 +1,13 @@
 import json
-import random
-from pathlib import Path
 from tqdm import tqdm
 from tree_sitter import Parser, Language
 import tree_sitter_python
 import ast
 from repo_setup import AirflowRepoManager
-from datasets import load_dataset, DatasetDict
-from huggingface_hub import HfApi
+from datasets import load_dataset
 
 MIN_DOCSTRING_TOKENS = 20
-MAX_CLASS_LINES = 1000
+MAX_CLASS_LINES = 400
 
 # TreeSplitter Configurations
 PYTHON_LANGUAGE = Language(tree_sitter_python.language())
